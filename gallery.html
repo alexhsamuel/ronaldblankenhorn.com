@@ -1,0 +1,178 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Ronald Blankenhorn</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/uikit.min.css" />
+    <script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
+    <style>
+    @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600');
+    .uk-navbar-item h1 {
+      margin: 0;
+      font-weight: 600;
+    }
+    .uk-navbar-nav li a { text-transform: inherit; }
+    .uk-navbar-right { padding-right: 12px; }
+    .uk-container { padding: 0; }
+    h2 {
+      margin: 0;
+      padding-left: 2px;
+      font-size: 18px;
+      font-weight: 600;
+    }
+    h3 {
+      margin-top: 12px;
+      padding-left: 3px;
+    }
+    a {
+      color: #8c1515;
+    }
+    .nomobile { display: initial; }
+    .mobile { display: none; }
+    .photos div {
+      margin: 8px;
+      float: left;
+      display: table;
+      height: 256px;
+    }
+    .photos img {
+      max-width: 256px; 
+      max-height: 256px;
+      vertical-align: middle;
+      display: table-cell;
+    }
+    @media only screen and (max-width: 680px) {
+      body {
+        font-size: 14px;
+      }
+      h1 {
+        font-size: 24px;
+      }
+      h2 {
+        font-size: 16px;
+        padding-left: 0;
+      }
+      h3 {
+        font-size: 18px;
+      }
+      .nomobile { display: none; }
+      .mobile { display: initial; }
+      ul.uk-navbar-nav {
+          background-color: rgb(248, 248, 248);
+          border-bottom: 1px solid #e0e0e0;
+      }
+      .uk-navbar-nav li a {
+          height: 40px;
+          background-color: rgb(248, 248, 248);
+      }
+      .photos div { height: 128px; margin: 4px; }
+      .photos img { max-width: 128px; max-height: 128px; }
+    }
+    </style>
+  </head>
+  <body>
+    <div class="uk-container uk-container-expand" style="max-width: 1024px">
+      <nav class="uk-navbar-container mobile" uk-navbar>
+        <ul class="uk-navbar-nav">
+          <li><a href=".">Home</a></li>
+          <li><a href="bio.html">Bio</a></li>
+          <li class="uk-active"><a href="gallery.html">Gallery</a></li>
+          <li><a href="stories.html">Stories</a></li>
+        </ul>
+      </nav>
+      <nav class="uk-navbar-container" uk-navbar>
+        <div class="uk-navbar-item" style="height: 100px">
+          <div>
+            <h1 style="font-weight: 600;">Ronald G. Blankenhorn</h1>
+            <h2 style="color: #999;">October 11, 1950 - July 3, 2018</h3>
+          </div>
+        </div>
+        <div class="uk-navbar-right nomobile">
+          <ul class="uk-navbar-nav">
+          <ul class="uk-navbar-nav">
+            <li><a href=".">Home</a></li>
+            <li><a href="bio.html">Bio</a></li>
+            <li class="uk-active"><a href="gallery.html">Gallery</a></li>
+            <li><a href="stories.html">Stories</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="uk-margin-left uk-margin-right uk-margin-top uk-margin-bottom">
+        <div uk-lightbox class="photos">
+          <div><a href="/photos/00.jpg" data-alt="Image"><img src="/photos/thumbs/00.jpg"/></a></div>
+          <div><a href="/photos/01.jpg" data-alt="Image"><img src="/photos/thumbs/01.jpg"/></a></div>
+          <div><a href="/photos/02.jpg" data-alt="Image"><img src="/photos/thumbs/02.jpg"/></a></div>
+          <div><a href="/photos/03.jpg" data-alt="Image"><img src="/photos/thumbs/03.jpg"/></a></div>
+          <div><a href="/photos/04.jpg" data-alt="Image"><img src="/photos/thumbs/04.jpg"/></a></div>
+          <div><a href="/photos/05.jpg" data-alt="Image"><img src="/photos/thumbs/05.jpg"/></a></div>
+          <div><a href="/photos/06.jpg" data-alt="Image"><img src="/photos/thumbs/06.jpg"/></a></div>
+          <div><a href="/photos/07.jpg" data-alt="Image"><img src="/photos/thumbs/07.jpg"/></a></div>
+          <div><a href="/photos/08.jpg" data-alt="Image"><img src="/photos/thumbs/08.jpg"/></a></div>
+          <div><a href="/photos/09.jpg" data-alt="Image"><img src="/photos/thumbs/09.jpg"/></a></div>
+          <div><a href="/photos/11.jpg" data-alt="Image"><img src="/photos/thumbs/11.jpg"/></a></div>
+          <div><a href="/photos/12.jpg" data-alt="Image"><img src="/photos/thumbs/12.jpg"/></a></div>
+          <div><a href="/photos/13.jpg" data-alt="Image"><img src="/photos/thumbs/13.jpg"/></a></div>
+          <div><a href="/photos/14.jpg" data-alt="Image"><img src="/photos/thumbs/14.jpg"/></a></div>
+          <div><a href="/photos/15.jpg" data-alt="Image"><img src="/photos/thumbs/15.jpg"/></a></div>
+          <div><a href="/photos/17.jpg" data-alt="Image"><img src="/photos/thumbs/17.jpg"/></a></div>
+          <div><a href="/photos/18.jpg" data-alt="Image"><img src="/photos/thumbs/18.jpg"/></a></div>
+          <div><a href="/photos/19.jpg" data-alt="Image"><img src="/photos/thumbs/19.jpg"/></a></div>
+          <div><a href="/photos/20.jpg" data-alt="Image"><img src="/photos/thumbs/20.jpg"/></a></div>
+          <div><a href="/photos/21.jpg" data-alt="Image"><img src="/photos/thumbs/21.jpg"/></a></div>
+          <div><a href="/photos/22.jpg" data-alt="Image"><img src="/photos/thumbs/22.jpg"/></a></div>
+          <div><a href="/photos/23.jpg" data-alt="Image"><img src="/photos/thumbs/23.jpg"/></a></div>
+          <div><a href="/photos/24.jpg" data-alt="Image"><img src="/photos/thumbs/24.jpg"/></a></div>
+          <div><a href="/photos/25.jpg" data-alt="Image"><img src="/photos/thumbs/25.jpg"/></a></div>
+          <div><a href="/photos/26.jpg" data-alt="Image"><img src="/photos/thumbs/26.jpg"/></a></div>
+          <div><a href="/photos/27.jpg" data-alt="Image"><img src="/photos/thumbs/27.jpg"/></a></div>
+          <div><a href="/photos/28.jpg" data-alt="Image"><img src="/photos/thumbs/28.jpg"/></a></div>
+          <div><a href="/photos/29.jpg" data-alt="Image"><img src="/photos/thumbs/29.jpg"/></a></div>
+          <div><a href="/photos/30.jpg" data-alt="Image"><img src="/photos/thumbs/30.jpg"/></a></div>
+          <div><a href="/photos/31.jpg" data-alt="Image"><img src="/photos/thumbs/31.jpg"/></a></div>
+          <div><a href="/photos/32.jpg" data-alt="Image"><img src="/photos/thumbs/32.jpg"/></a></div>
+          <div><a href="/photos/33.jpg" data-alt="Image"><img src="/photos/thumbs/33.jpg"/></a></div>
+          <div><a href="/photos/34.jpg" data-alt="Image"><img src="/photos/thumbs/34.jpg"/></a></div>
+          <div><a href="/photos/35.jpg" data-alt="Image"><img src="/photos/thumbs/35.jpg"/></a></div>
+          <div><a href="/photos/36.jpg" data-alt="Image"><img src="/photos/thumbs/36.jpg"/></a></div>
+          <div><a href="/photos/37.jpg" data-alt="Image"><img src="/photos/thumbs/37.jpg"/></a></div>
+          <div><a href="/photos/38.jpg" data-alt="Image"><img src="/photos/thumbs/38.jpg"/></a></div>
+          <div><a href="/photos/39.jpg" data-alt="Image"><img src="/photos/thumbs/39.jpg"/></a></div>
+          <div><a href="/photos/40.jpg" data-alt="Image"><img src="/photos/thumbs/40.jpg"/></a></div>
+          <div><a href="/photos/41.jpg" data-alt="Image"><img src="/photos/thumbs/41.jpg"/></a></div>
+          <div><a href="/photos/42.jpg" data-alt="Image"><img src="/photos/thumbs/42.jpg"/></a></div>
+          <div><a href="/photos/43.jpg" data-alt="Image"><img src="/photos/thumbs/43.jpg"/></a></div>
+          <div><a href="/photos/44.jpg" data-alt="Image"><img src="/photos/thumbs/44.jpg"/></a></div>
+          <div><a href="/photos/45.jpg" data-alt="Image"><img src="/photos/thumbs/45.jpg"/></a></div>
+          <div><a href="/photos/46.jpg" data-alt="Image"><img src="/photos/thumbs/46.jpg"/></a></div>
+          <div><a href="/photos/47.jpg" data-alt="Image"><img src="/photos/thumbs/47.jpg"/></a></div>
+          <div><a href="/photos/48.jpg" data-alt="Image"><img src="/photos/thumbs/48.jpg"/></a></div>
+          <div><a href="/photos/49.jpg" data-alt="Image"><img src="/photos/thumbs/49.jpg"/></a></div>
+          <div><a href="/photos/50.jpg" data-alt="Image"><img src="/photos/thumbs/50.jpg"/></a></div>
+          <div><a href="/photos/51.jpg" data-alt="Image"><img src="/photos/thumbs/51.jpg"/></a></div>
+          <div><a href="/photos/52.jpg" data-alt="Image"><img src="/photos/thumbs/52.jpg"/></a></div>
+          <div><a href="/photos/53.jpg" data-alt="Image"><img src="/photos/thumbs/53.jpg"/></a></div>
+          <div><a href="/photos/54.jpg" data-alt="Image"><img src="/photos/thumbs/54.jpg"/></a></div>
+          <div><a href="/photos/55.jpg" data-alt="Image"><img src="/photos/thumbs/55.jpg"/></a></div>
+          <div><a href="/photos/56.jpg" data-alt="Image"><img src="/photos/thumbs/56.jpg"/></a></div>
+          <div><a href="/photos/57.jpg" data-alt="Image"><img src="/photos/thumbs/57.jpg"/></a></div>
+          <div><a href="/photos/58.jpg" data-alt="Image"><img src="/photos/thumbs/58.jpg"/></a></div>
+          <div><a href="/photos/59.jpg" data-alt="Image"><img src="/photos/thumbs/59.jpg"/></a></div>
+          <div><a href="/photos/60.jpg" data-alt="Image"><img src="/photos/thumbs/60.jpg"/></a></div>
+          <div><a href="/photos/61.jpg" data-alt="Image"><img src="/photos/thumbs/61.jpg"/></a></div>
+          <div><a href="/photos/62.jpg" data-alt="Image"><img src="/photos/thumbs/62.jpg"/></a></div>
+          <div><a href="/photos/63.jpg" data-alt="Image"><img src="/photos/thumbs/63.jpg"/></a></div>
+          <div><a href="/photos/64.jpg" data-alt="Image"><img src="/photos/thumbs/64.jpg"/></a></div>
+          <div><a href="/photos/65.jpg" data-alt="Image"><img src="/photos/thumbs/65.jpg"/></a></div>
+          <div><a href="/photos/66.jpg" data-alt="Image"><img src="/photos/thumbs/66.jpg"/></a></div>
+        </div> 
+        <p style="clear: left;">
+          To contribute photos, please
+          email <a href="mailto:rhoni.blankenhorn@gmail.com">rhoni.blankenhorn@gmail.com</a>.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
+
